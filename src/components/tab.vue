@@ -75,12 +75,12 @@
       padding: 8px 0;
       text-align: center;
       border-left: 2px solid rgb(13, 96, 149);
-      border-bottom: 1px solid rgb(128, 161, 182);
+      border-top: 1px solid rgb(128, 161, 182);
       background: rgb(13, 96, 149);
     }
     .active {
       color: #fff;
-      background: rgb(4, 49, 75);
+      background: $bg-dark;
       border-left: 2px solid $border-color;
     }
   }

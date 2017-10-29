@@ -14,8 +14,6 @@
         <keep-alive>
           <router-view></router-view>
         </keep-alive>
-        <!--<div class="patient-base-info-table"></div>-->
-        <!--<div class="unchecked-table"></div>-->
       </main>
       <footer class="wrap clearfix">
         <div class="tooltip">提示</div>
