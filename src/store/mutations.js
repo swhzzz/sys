@@ -7,6 +7,9 @@ const mutations = {
   },
   switchCurrentListTabIndex(state,payload){
     state.currentListTabIndex = payload
+  },
+  switchInvestigationIndex(state,index){
+    state.investigationIndex = index
   }
 }
 

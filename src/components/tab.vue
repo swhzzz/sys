@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li v-for="(subTab,key) in tabs" class="tab-item">
-        <h4 @click="animate">{{key}}
+        <h4>{{key}}
         <svg class="icon icon-down">
           <use xlink:href="#icon-down"></use>
         </svg>
@@ -62,6 +62,7 @@
       position: relative;
       padding: 8px 0;
       text-align: center;
+      color: rgb(177,198,210);
       background: rgb(7, 72, 111);
       .icon-down {
         position: absolute;
